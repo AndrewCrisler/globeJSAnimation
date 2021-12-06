@@ -1,0 +1,33 @@
+p {
+    color: rebeccapurple;
+}
+
+#animationContainer {
+    margin-top: 200px;
+    margin-left: 200px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: lightcoral;
+}
+
+#senseField {
+    border-radius: 125px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    /* background-color: rebeccapurple; */
+}
+
+#animationContainer:hover {
+    background-color: coral;
+}
+
+.globeElement {
+    position: absolute;
+    list-style: none;
+    background-color: aqua;
+    z-index: 5;
+}
