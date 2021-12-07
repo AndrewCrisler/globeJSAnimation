@@ -188,7 +188,8 @@ senseField.addEventListener('mousemove', function(e){
         let center_y = globeHolder.getBoundingClientRect().top + HOLDER_RAD
     
         if (Math.abs(mouse_x - center_x) > EFFECT_RAD){
-            //rotate right
+            rotateRight(elements)
+            updateElements(elements, rotateMat)
         } 
     
         if (Math.abs(mouse_y - center_y) > EFFECT_RAD){
